@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background: #2a3353 !important;
+    color: #fff !important
+}
+
+nav a.navbar-brand span {
+    color: orange !important;
+    font-size: 32px;
+}
+
+nav ul li {
+    padding: 0px 15px
+}
+
+nav ul li a {
+    color: #eee !important;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: orange !important;
+}
+
+header {
+    min-height: 400px;
+    background: linear-gradient(#2a33539c, #2a33539c), url(../image/father.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+    margin-top: 0px
+}
+
+header button.text-light {
+    background: #2a3353 !important;
+}
+
+header h2 span {
+    color: orange;
+    font-family: cursive
+}
+
+#topper {
+    background: #f2f2f2
+}
+
+#topper i {
+    color: #fb5200 !important;
+    margin-right: 0.5rem
+}
+
+#topper p {
+    color: #555
+}
+
+.icons i {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    transition: 0.5s
+}
+
+.icons i:first-child {
+    background: #3b5998;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0.3rem
+}
+
+.icons i:nth-child(2) {
+    background: #1da1f2;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0.3rem
+}
+
+.icons i:nth-child(3) {
+    background: #4c68d7;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0.3rem
+}
+
+.icons i:last-child {
+    background: #ff0000;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.icons {
+    position: fixed;
+    top: 250px
+}
+
+.icons i:hover {
+    width: 100px;
+    transition: 0.7s;
+    transition-timing-function: ease-in-out
+}
+
+#services {
+    background: linear-gradient(#fff, #f2f2f2, #ddd)
+}
+
+#services .row .col p {
+    color: #666 !important;
+    line-height: 27px;
+    font-family: sans-serif
+}
+#gallery .row .col p {
+    color: #666 !important;
+    line-height: 27px;
+    font-family: sans-serif
+}
+#services h4 {
+    font-family: cursive;
+    font-weight: bold
+}
+
+#services i {
+    color: #2a3353 
+}
+
+#services p {
+    color: #333 !important
+}
+
+#our {
+    background: linear-gradient(#2a3353cc, #2a3353cc), url(../image/b2.jpg) no-repeat center center / cover;
+}
+
+#our h3 span {
+    font-family: cursive;
+    font-weight: bold;
+    color: orange
+}
+
+#gallery img {
+    height: 260px;
+}
+
+footer {
+    background: #2a3353
+}
+
+footer p span {
+    color: #fb5200 !important;
+    font-size: 30px;
+    font-family: cursive
+}
+
+footer p.myText {
+    color: #ccc !important
+}
+
+footer .d-flex i {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    border: thin solid #bbb;
+}
+
+@media screen and (max-width:768px) {
+    header .desc p {
+        width: 95% !important
+    }
+
+    #services .row:nth-child(2) {
+        margin-bottom: 0px !important
+    }
+
+    #services .col p {
+        width: 100% !important
+    }
+
+    .icons {
+        display: none;
+    }
+
+    #our .col-lg-6 {
+        margin-bottom: 20px
+    }
+
+    #gallery .row {
+        margin-bottom: 0px !important
+    }
+
+    #gallery .col-md-6 {
+        margin-bottom: 10px
+    }
+}
